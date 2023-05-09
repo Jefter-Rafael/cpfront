@@ -3,7 +3,7 @@
 function create($name)
 {
     // Nome do arquivo a ser criado
-    $arquivo = './'.$name . ".json";
+    $arquivo = '../'.$name . ".json";
     // Texto a ser escrito no arquivo
     $texto =
         file_get_contents('https://cpback.agreablecode.com/api/' . $name);
